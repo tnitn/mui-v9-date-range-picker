@@ -75,5 +75,5 @@ interface DefinedRange {
 ## Made possible by
 
 <a href="https://github.com/reschandreas/date-range-picker-mui/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=reschandreas/date-range-picker-mui" />
+  <img src="https://contributors-img.web.app/image?repo=reschandreas/date-range-picker-mui" alt="contributors"/>
 </a>
