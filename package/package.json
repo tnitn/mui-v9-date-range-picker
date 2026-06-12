@@ -1,22 +1,28 @@
 {
     "name": "mui-v9-date-range-picker",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A React date range picker implementation using @mui.",
     "author": "tnitn",
     "license": "MIT",
     "repository": "tnitn/mui-v9-date-range-picker",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
     "jsnext:main": "dist/index.es.js",
     "engines": {
         "node": ">=18",
         "npm": ">=10"
     },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
     "scripts": {
         "lint": "./node_modules/.bin/eslint ./src --ext .js,.jsx,.ts,.tsx",
         "build": "rollup -c --bundleConfigAsCjs",
         "copy_publish_files": "cp ../README.md .",
-        "prepublish": "yarn run build && yarn run copy_publish_files"
+        "prepublishOnly": "yarn run build && yarn run copy_publish_files"
     },
     "peerDependencies": {
         "@babel/runtime": "^7.26.0",
