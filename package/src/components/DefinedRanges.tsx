@@ -39,13 +39,10 @@ const DefinedRanges: React.FunctionComponent<DefinedRangesProps> = ({
                   }]}
       >
         <ListItemText
-          primaryTypographyProps={{
-            variant: 'body2',
-            sx: {
-              fontWeight: isSameRange(range, selectedRange)
+          slotProps={{ primary: {variant: 'body2'}}}
+          sx={{ fontWeight: isSameRange(range, selectedRange)
                 ? 'bold'
-                : 'normal',
-            },
+                : 'normal'
           }}
         >
           {range.label}

@@ -46,7 +46,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({
   };
 
   return (
-    <Grid container justifyContent="space-between" alignItems="center">
+    <Grid container sx={{justifyContent: 'space-between', alignItems: 'center'}}>
       <Grid sx={{padding: '5px'}}>
         <IconButton
           sx={{

@@ -74,6 +74,6 @@ interface DefinedRange {
 
 ## Made possible by
 
-<a href="https://github.com/reschandreas/date-range-picker-mui/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=reschandreas/date-range-picker-mui" alt="contributors"/>
+<a href="https://github.com/tnitn/mui-v9-date-range-picker/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=tnitn/mui-v9-date-range-picker" alt="contributors"/>
 </a>
