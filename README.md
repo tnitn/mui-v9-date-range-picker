@@ -16,7 +16,7 @@ A React date range picker implementation using @mui (v9).
 npm install mui-v9-date-range-picker --save
 
 # or with yarn
-yarn add mui-v9-date-range-picker-mui
+yarn add mui-v9-date-range-picker
 ```
 
 ## Basic example
