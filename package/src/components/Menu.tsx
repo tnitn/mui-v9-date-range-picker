@@ -1,6 +1,6 @@
 /* eslint-disable object-curly-newline */
 import React from 'react';
-import {Divider, Grid, Paper, Typography, Stack} from '@mui/material';
+import {Divider, Grid, Paper, Typography} from '@mui/material';
 import {differenceInCalendarMonths, format} from 'date-fns';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Month from './Month';
@@ -66,7 +66,7 @@ const Menu: React.FunctionComponent<MenuProps> = (props: MenuProps) => {
           />
         </Grid>
         <Divider orientation="vertical" flexItem/>
-        <Stack>
+        <Grid>
           <Grid container sx={{padding: '20px 70px'}} alignItems="center">
             <Grid sx={{flex: 1, textAlign: 'center'}}>
               <Typography variant="subtitle1">
@@ -102,7 +102,7 @@ const Menu: React.FunctionComponent<MenuProps> = (props: MenuProps) => {
               locale={locale}
             />
           </Grid>
-        </Stack>
+        </Grid>
       </Grid>
     </Paper>
   );
